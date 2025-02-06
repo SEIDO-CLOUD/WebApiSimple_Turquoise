@@ -8,9 +8,9 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
-  name: 'MartinsXPS15'
-  demands:
-      - agent.name -equals MARTINS_XPS15
+#  name: 'MartinsXPS15'
+#  demands:
+#      - agent.name -equals MARTINS_XPS15
 
 variables:
   solution: '**/*.sln'
